@@ -12,19 +12,18 @@
     "type": "git",
     "url": "git+https://github.com/drew-usyd/studbud.git"
   },
-  "author": "amy mcneilage",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/drew-usyd/studbud/issues"
   },
   "homepage": "https://github.com/drew-usyd/studbud#readme",
   "dependencies": {
-    "express": "^4.18.1",
+    "express": "^4.17.3",
     "sass": "^1.51.0"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.4.1",
-    "parcel": "^2.4.1"
-  },
-  "main": "index.js"
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0"
+  }
 }
