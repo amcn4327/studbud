@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static(__dirname + "/dist"));
 
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/dist/index.html");
+  res.sendFile(__dirname + "/public/index.html");
 });
 
 let server = app.listen(8888, function () {
