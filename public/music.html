@@ -4,22 +4,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>StudBud</title>
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/public/styles/musstyles.scss">
 </head>
 
 <div class="container">
-  <div class="logo"></div>
-
-    <div class="header"></div>
-
-  
-  <div class="nav">
-    <a href="task.html">Task list</a>
-    <a href="music.html">Music</a>
-    <a href="dictionary.html">Dictionary</a>
+  <div class="logo">
+    <img src="/assets/logo.png" alt="StudBud logo">
   </div>
+
+  <header>
+    <h1>StudBud</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="task.html">Task list</a>
+    <a href="dictionary.html">Dictionary</a>
+  </nav>
 
   <div class="main">
     <div class="player">
@@ -39,18 +42,13 @@
         <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
         <div class="total-duration">00:00</div>
       </div>
-      <div class="slider_container">
-        <i class="fa fa-volume-down"></i>
-        <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
-        <i class="fa fa-volume-up"></i>
-      </div>
     </div>
   
     <!-- Load the main script for the player -->
     <script src="musscript.js"></script>
   </div>
 
-  <div class="footer"></div>
+  <footer></footer>
 </div>
 
   
