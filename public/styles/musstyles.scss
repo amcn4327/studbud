@@ -105,9 +105,8 @@ body {
     margin: 25px;
     height: 250px;
     width: 250px;
-    background-image: url("https://images.pexels.com/photos/262034/pexels-photo-262034.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 25%;
   }
   
   .now-playing {
@@ -172,13 +171,13 @@ body {
     border-radius: 50%;
   }
   
-  
   .seek_slider {
     width: 60%;
   }
   
   .current-time, .total-duration {
     padding: 10px;
+    font-family: 'Exo', sans-serif;
   }
   
   i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {

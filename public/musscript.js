@@ -21,22 +21,28 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/WFMU/Broke_For_Free/Directionless_EP/Broke_For_Free_-_01_-_Night_Owl.mp3"
+    name: "hot",
+    artist: "Zack Villere",
+    image: "https://i1.sndcdn.com/artworks-000126559140-fkrqvt-t500x500.jpg",
+    path: "https://drive.google.com/uc?export=download&id=1-ITtaRprgsctigxlS94ffDnEWP0tjZ5O"
   },
   {
-    name: "Enthusiast",
-    artist: "Tours",
-    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Tours/Enthusiast/Tours_-_01_-_Enthusiast.mp3"
+    name: "happy end",
+    artist: "melty canon",
+    image: "https://i1.sndcdn.com/artworks-000101297382-6ugca9-t500x500.jpg",
+    path: "https://drive.google.com/uc?export=download&id=1lKLNYAhD8PkjWJVwWDDVVHWYHT1BueXx"
   },
   {
-    name: "Shipping Lanes",
-    artist: "Chad Crouch",
-    image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3",
+    name: "No.999",
+    artist: "nepo",
+    image: "https://i1.sndcdn.com/artworks-000118020826-1cb8fc-t500x500.jpg",
+    path: "https://drive.google.com/uc?export=download&id=1e0WlnxE8sgbfQU4Pey3SY9aU187Wk4r8",
+  },
+  {
+    name: "happy thoughts",
+    artist: "mt. fujitive",
+    image: "https://i1.sndcdn.com/artworks-000141608928-z47858-t500x500.jpg",
+    path: "https://drive.google.com/uc?export=download&id=18xWeOunJ_0dS4w5aQoWCxKPe_trsGe0V",
   },
 ];
 
