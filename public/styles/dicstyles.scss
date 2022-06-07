@@ -1,0 +1,166 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #415A77;
+  }
+  .container {  display: grid;
+    grid-template-columns: 230px 1fr;
+    grid-template-rows: 150px 2.5fr 100px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "logo header"
+      "nav main"
+      "footer footer";
+  }
+  
+  .logo { grid-area: logo; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+  }
+  
+  .logo > img {
+    max-height: 100%;
+    margin: auto;
+  }
+  
+  header { grid-area: header; 
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  
+  h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    color: #E0E1DD;
+    padding: 5px;
+  }
+  
+  h2 {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+    color: #E0E1DD;
+    padding: 5px;
+  }
+
+  h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 10px;
+  }
+  
+  p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-left: 10px;
+  }
+  
+  nav { grid-area: nav; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  nav > a {
+    padding: 10px;
+    margin: 20px;
+    width: 130px;
+  }
+  
+  nav a {
+    font-size: 2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: #E0E1DD;
+    
+  }
+  
+  a:hover {
+    color: #778DA9;
+  }
+
+
+.dic-container {
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+    background-color: #778DA9;
+}
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #415A77;
+}
+.search-box input {
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #1B263B;
+    font-size: 16px;
+    background-color: #415A77;
+}
+.search-box button {
+    padding: 15px 0;
+    width: 25%;
+    background-color: #1B263B;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.result {
+    position: relative;
+    padding: 5px;
+}
+.result h3 {
+    font-size: 30px;
+    color: #1f194c;
+}
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.result button {
+    background-color: transparent;
+    color: #ae9cff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.result .details {
+    display: flex;
+    gap: 10px;
+    color: #1B263B;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+.word-meaning {
+    color: #1B263B;
+}
+.word-example {
+    color: #1B263B;
+    font-style: italic;
+    border-left: 5px solid #ae9cff;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.error {
+    margin-top: 80px;
+    text-align: center;
+    background-color: #778DA9;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>StudBud</title>
+  <link href="/public/styles/dicstyles.scss" rel="stylesheet" type="text/css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<div class="container">
+  <div class="logo">
+    <img src="/assets/logo.png" alt="StudBud logo">
+  </div>
+
+    <header>
+      <h1>StudBud</h1>
+    </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="kanban.html">Kanban</a>
+    <a href="music.html">Music</a>
+    <a href="timer.html">Pomodoro</a>
+    <a href="stopwatch.html">Stopwatch</a>
+  </nav>
+
+  <div class="main">
+    <h2>Dictionary</h2>
+    <body>
+        <div class="dic-container">
+            <div class="search-box">
+                <input
+                    type="text"
+                    placeholder="Type the word here.."
+                    id="inp-word"
+                />
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="result" id="result"></div>
+        </div>
+        <!-- Script -->
+        <script src="/public/scripts/dicscript.js"></script>
+
+    </body>
+  </div>
+
+</div>
+
+  
+
+
+</html>

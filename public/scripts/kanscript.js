@@ -1,3 +1,4 @@
+
 $('.drag-item').on('dragstart', function(event) {
     event.originalEvent.dataTransfer.setData('listItem', $(this).index())
   })
