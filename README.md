@@ -5,7 +5,7 @@ Assignment 3 repository
 
 Dictionary API: https://dictionaryapi.dev/
 
-Dictionary app: https://rapidapi.com/blog/build-a-dictionary-app-with-the-wordsapi/
+Dictionary app: https://youtu.be/PUkgK7TI0x0
 
 Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
