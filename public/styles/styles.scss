@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #1B263B;
+
   }
   .container {  display: grid;
     grid-template-columns: 230px 1fr;
@@ -21,6 +21,7 @@
     align-items: center;
     justify-content: center;
     padding: 5px;
+    background-color: #1B263B;
     
   }
 
@@ -34,6 +35,7 @@
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    background-color: #1B263B;
   }
 
   h1 {
@@ -47,10 +49,15 @@
     padding: 5px;
   }
 
+  h2 {
+    font-family: 'Exo', sans-serif;
+  }
+
   nav { grid-area: nav; 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    background-color: #1B263B;
   }
 
   nav > a {
@@ -76,11 +83,45 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    background-color: #1B263B;
     }
 
   footer p {
     margin: 5px;
   }
   
-  .main { grid-area: main; }
+  .main { grid-area: main; 
+    padding: 10px;
+    background-color: #778DA9;
+
+  }
+
+  form#taskform {
+    background-color: #778DA9;
+    margin-top: 10px;
+  }
+
+  label {
+    padding: 5px;
+    margin: 10px; 
+    font-family: 'Exo', sans-serif;
+  }
+
+  button {
+    padding: 5px; 
+    margin: 15px;
+    border-radius: 10%;
+  }
+
+  button:hover {
+    color: #778DA9;
+    background-color: #1B263B;
+  }
+
+  input {
+    padding: 3px;
+    margin: 5px;
+  }
+
+
   
