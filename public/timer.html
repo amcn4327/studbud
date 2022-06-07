@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>StudBud</title>
+  <link href="/public/styles/timstyles.scss" rel="stylesheet" type="text/css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<div class="container">
+  <div class="logo">
+    <img src="/assets/logo.png" alt="StudBud logo">
+  </div>
+
+    <header>
+      <h1>StudBud</h1>
+    </header>
+
+  
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="kanban.html">Kanban</a>
+    <a href="music.html">Music</a>
+    <a href="stopwatch.html">Stopwatch</a>
+    <a href="dictionary.html">Dictionary</a>
+
+  </nav>
+
+  
+  <div class="main">
+    <h2>Pomodoro timer and stopwatch</h2>
+
+    <div class="app">
+        <progress id="js-progress" value="0"></progress>
+        <div class="progress-bar"></div>
+        <div class="timer">
+          <div class="button-group mode-buttons" id="js-mode-buttons">
+            <button
+              data-mode="pomodoro"
+              class="button active mode-button"
+              id="js-pomodoro">
+              Pomodoro
+            </button>
+            <button
+              data-mode="shortBreak"
+              class="button mode-button"
+              id="js-short-break">
+              Short break
+            </button>
+            <button
+              data-mode="longBreak"
+              class="button mode-button"
+              id="js-long-break">
+              Long break
+            </button>
+          </div>
+          <div class="clock" id="js-clock">
+            <span id="js-minutes">25</span>
+            <span class="separator">:</span>
+            <span id="js-seconds">00</span>
+          </div>
+          <button class="main-button" data-action="start" id="js-btn">
+            Start
+          </button>
+        </div>
+    </div>
+
+    <script src="/public/scripts/timscript.js"></script>
+
+  </div>
+
+  <footer>
+    <p>Made by amcn4327</p>
+  </footer>
+
+</div>
+
+  
+
+
+</html>

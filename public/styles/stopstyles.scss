@@ -103,51 +103,30 @@
     padding: 5px;
  }
 
- h3 {
-    background-color: #415A77;
- }
+  button {
+    width: 100px;
+    height: 30px;
+    border: 3px soldi white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
 
- .kanban-container {
-    margin: 20px auto;
-    max-width: 1000px;
- }
-
- ul {
-    list-style-type: none;
-    padding: 0;
- }
-
- .kanban-list {
-    display: flex;
-    align-items: flex-start;
- }
-
- .kanban-column {
-    flex: 1;
-    margin: 0 10px;
-    position: relative;
-    background: rgba(0, 0, 0, 0.2);
-    overflow: hidden;
- }
-
- .kanban-column-header {
+#stopwatch {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px;
- }
+    font-size: 150px;
+}
+#buttons {
+    display: flex;
+    align-items: center;
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
 
- .header-todo, .header-done, .header-progress {
-    background: #415A77;
- }
 
-
- .drag-inner-list {
-    min-height: 50px;
- }
-
- .drag-item {
-    margin: 10px;
-    height: 100px;
-    background: #07131f;
- }
+  
