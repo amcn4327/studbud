@@ -18,9 +18,9 @@ Pomodoro timer starter files: https://github.com/Freshman-tech/pomodoro-starter-
 Stopwatch: https://dev.to/gspteck/create-a-stopwatch-in-javascript-2mak
 
 ### Songs:
-https://soundcloud.com/mekaplex/happy-end
-https://soundcloud.com/zackvillere/hot
-https://soundcloud.com/mt_fujitive/happy-thoughts
-https://soundcloud.com/hwps/no999?
+Song 1: https://soundcloud.com/zackvillere/hot
+Song 2: https://soundcloud.com/mekaplex/happy-end
+Song 3: https://soundcloud.com/hwps/no999?
+Song 4: https://soundcloud.com/mt_fujitive/happy-thoughts
 
 
